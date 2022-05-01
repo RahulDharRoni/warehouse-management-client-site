@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Oil/oil filter changed",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/pouring-motor-oil-for-motor-vehicles-from-a-gray-bottle-into-the-picture-id1325588832"
+    },
+    {
+        "id": 2,
+        "name": "Replace air filter",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/automotive-air-filter-replacement-picture-id184348820"
+    },
+    {
+        "id": 3,
+        "name": "Engine tune-up",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/auto-mechanic-at-work-picture-id901534778"
+    },
+    {
+        "id": 4,
+        "name": "Wheels aligned/balanced",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/computerized-wheel-alignment-machine-clamp-picture-id463462731"
+    },
+    {
+        "id": 5,
+        "name": "New tires",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/rack-with-variety-of-new-car-tires-in-automobile-store-picture-id1134968066"
+    },
+    {
+        "id": 6,
+        "name": "Battery replacement",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/repairman-auto-mechanic-caucasian-white-man-with-tattoos-on-hands-in-picture-id1220455304"
+    },
+    {
+        "id": 7,
+        "name": "Battery replacement",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/repairman-auto-mechanic-caucasian-white-man-with-tattoos-on-hands-in-picture-id1220455304"
+    },
+    {
+        "id": 8,
+        "name": "Battery replacement",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/repairman-auto-mechanic-caucasian-white-man-with-tattoos-on-hands-in-picture-id1220455304"
+    },
+    {
+        "id": 9,
+        "name": "Battery replacement",
+        "price": "300",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "img": "https://media.istockphoto.com/photos/repairman-auto-mechanic-caucasian-white-man-with-tattoos-on-hands-in-picture-id1220455304"
+    }
+]
