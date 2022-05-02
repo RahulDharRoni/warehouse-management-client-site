@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+
 
 const BookDetails = () => {
     const { booksId } = useParams();
     const [details, setDetails] = useState({});
+    const navigate = useNavigate();
 
     useEffect(() => {
         const url = `http://localhost:5000/books/${booksId}`
@@ -11,6 +13,11 @@ const BookDetails = () => {
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])
+
+    const handleAddBook = () => {
+        navigate('/addbooks')
+    }
+
     return (
         <div className='container m-5 bg-light'>
             <div className='row justify-content-md-center align-items-center'>
@@ -19,7 +26,7 @@ const BookDetails = () => {
                     <p>{details.description}</p>
                     <h5>Price :{details.price}</h5>
                     <div className='mx-auto'>
-                        <button className='bg-danger text-white border py-2 px-5 rounded'>Add More Books</button>
+                        <button onClick={handleAddBook} className='bg-danger text-white border py-2 px-5 rounded'>Add More Books</button>
                     </div>
                 </div>
                 <div className='row col-md-6 justify-content-md-center p-5'>

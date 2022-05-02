@@ -4,10 +4,9 @@ import { useForm } from "react-hook-form";
 const AddBooks = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        console.log(data);
-        const url = `http://localhost:5000/books`;
+        const url = `http://localhost:5000/books`
         fetch(url, {
-            method: 'POST',
+            method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -17,6 +16,7 @@ const AddBooks = () => {
             .then(data => {
                 console.log('Success:', data);
             })
+
     };
 
     return (

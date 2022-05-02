@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 
 const Login = () => {
@@ -13,6 +13,10 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    //private Route
+    const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
 
     const navigate = useNavigate();
 
@@ -37,7 +41,7 @@ const Login = () => {
         return <p>Loading...</p>;
     }
     if (user) {
-        navigate('/home');
+        navigate(from, { replace: true });
     }
     const OpenSignUp = event => {
         navigate('/signup')
