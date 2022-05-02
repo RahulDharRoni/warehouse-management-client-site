@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import useBooksHooks from '../../Hooks/useBooksHooks';
 import Book from '../Book/Book';
 import './books.css'
@@ -12,7 +11,7 @@ const Books = () => {
                 {
                     books.map(booksInfo => <Book
                         booksInfo={booksInfo}
-                        key={booksInfo.id}>
+                        key={booksInfo._id}>
 
                     </Book>)
                 }

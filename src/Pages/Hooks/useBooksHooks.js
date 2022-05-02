@@ -4,7 +4,7 @@ const useBooksHooks = () => {
     const [books, setBooks] = useState([])
 
     useEffect(() => {
-        fetch('Books.json')
+        fetch('http://localhost:5000/books')
             .then(res => res.json())
             .then(data => setBooks(data))
 
