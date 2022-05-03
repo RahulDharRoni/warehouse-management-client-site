@@ -35,12 +35,14 @@ function App() {
             <BookDetails></BookDetails>
           </RequireAuth>} />
 
-        <Route path="/deletebooks" element={<DeleteBooks></DeleteBooks>} />
-
-        {/* <Route path="/delete" element={
+        <Route path="/deletebooks" element={
           <RequireAuth>
             <DeleteBooks></DeleteBooks>
-          </RequireAuth>} /> */}
+          </RequireAuth>
+        } />
+
+
+        <Route path="*" element={<DeleteBooks></DeleteBooks>} />
       </Routes>
     </div>
   );

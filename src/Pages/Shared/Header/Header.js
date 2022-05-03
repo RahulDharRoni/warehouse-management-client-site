@@ -15,8 +15,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" sticky='top' variant="dark" className='text-white bg-danger font-size-bold'>
                 <Container>
                     <Navbar.Brand as={Link} to="/home">
-                        {/* <img src={logo} alt="" width='100' height='50' as={Link} to="/home" /> */}
-                        <img src="https://cdn-icons-png.flaticon.com/512/1238/1238681.png?w=740" alt="" width='100px' height='100px' />
+                        <img src="https://cdn-icons-png.flaticon.com/512/1238/1238681.png?w=740" alt="" width='50px' height='50px' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

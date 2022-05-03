@@ -9,6 +9,6 @@
 
 .books-container img {
     /* width: 100%; */
-    max-width: 200px;
-    height: 250px;
+    max-width: 100px;
+    height: 350px;
 }

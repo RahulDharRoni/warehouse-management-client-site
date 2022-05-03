@@ -6,7 +6,7 @@ const AddBooks = () => {
     const onSubmit = data => {
         const url = `http://localhost:5000/books`
         fetch(url, {
-            method: 'POST', // or 'PUT'
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -20,12 +20,13 @@ const AddBooks = () => {
     };
 
     return (
-        <div className='w-50 mx-auto'>
+        <div className='w-50 mx-auto shadow p-5 m-5'>
             <h2 className='text-center'>Add a Book in the Inventory</h2>
             <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
                 <input className='m-2 py-2' placeholder='Name' {...register('name', { required: true, maxLength: 20 })} />
                 <input className='m-2 py-2' placeholder='Price' type="number" {...register('price')} />
                 <textarea className='m-2 py-2' placeholder='Description' {...register('description')} />
+                <input className='m-2 py-2' placeholder='Quantity' type="number" {...register('quantity')} />
                 <input className='m-2 py-2' placeholder='Photo URL' type="text" {...register('img')} />
                 <input className='m-2 bg-danger border py-2 text-white' type="submit" value="Add Books" />
             </form>

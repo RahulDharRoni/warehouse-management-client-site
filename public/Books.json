@@ -1,65 +1,83 @@
 [
     {
-        "id": 1,
         "name": "Atomic Habits",
-        "price": "300",
+        "price": "3040",
         "description": "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
-        "img": "https://m.media-amazon.com/images/P/0735211299.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/0735211299.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "45",
+        "sold": "10",
+        "supplierName": "stive"
     },
     {
-        "id": 2,
         "name": "Tell Me Your Life Story, Mom",
-        "price": "300",
+        "price": "3400",
         "description": "This simple guided journal helps mothers record their life story with over 200 questions.The thought-provoking questions and prompts are organized into chapters based on your mother’s life stages to help her record memories, experiences, treasured moments and reflections.",
-        "img": "https://m.media-amazon.com/images/P/1952568099.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/1952568099.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "400",
+        "sold": "13",
+        "supplierName": "max"
     },
     {
-        "id": 3,
         "name": "The Palace Papers",
-        "price": "300",
+        "price": "3300",
         "description": "Never again” became Queen Elizabeth II’s mantra shortly after Princess Diana’s tragic death. More specif­ically, there could never be “another Diana”—a mem­ber of the family whose global popularity upstaged, outshone, and posed an existential threat to the Brit­ish monarchy.",
-        "img": "https://m.media-amazon.com/images/P/0593138090.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/0593138090.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "44",
+        "sold": "15",
+        "supplierName": "David"
     },
     {
-        "id": 4,
         "name": "Think and Grow Rich!",
-        "price": "300",
+        "price": "700",
         "description": "I thought Think and Grow Rich! was a classic and could never be improved. I was wrong. I am sure Dr. Hill would be greatly pleased to see how his work has been honored and enhanced by this outstanding new edition.Wally Amos, author and founder of Famous Amos Chocolate Chip Cookies",
-        "img": "https://m.media-amazon.com/images/P/0990797600.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/0990797600.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "50",
+        "sold": "12",
+        "supplierName": "Schol"
     },
     {
-        "id": 5,
         "name": "New tires",
-        "price": "300",
+        "price": "3080",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-        "img": "https://media.istockphoto.com/photos/rack-with-variety-of-new-car-tires-in-automobile-store-picture-id1134968066"
+        "img": "https://media.istockphoto.com/photos/rack-with-variety-of-new-car-t,ires-in-automobile-store-picture-id1134968066",
+        "quantity": "48",
+        "sold": "19",
+        "supplierName": "Nond"
     },
     {
-        "id": 6,
         "name": "How to Talk to Anyone: 92 Little Tricks",
-        "price": "300",
+        "price": "3080",
         "description": "You'll not only break the ice, you'll melt it away with your new skills. Larry King The lost art of verbal communication may be revitalized by Leil Lowndes.Harvey McKay, author of “How to Swim with the Sharks Without Being Eaten Alive",
-        "img": "https://m.media-amazon.com/images/P/007141858X.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/007141858X.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "405",
+        "sold": "17",
+        "supplierName": "Seon"
     },
     {
-        "id": 7,
         "name": "Rich Dad Poor Dad",
-        "price": "300",
+        "price": "3600",
         "description": "What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! Mass Market Paperback – April 11, 2017.Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his rich dad — and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.",
-        "img": "https://m.media-amazon.com/images/P/B07C7M8SX9.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/B07C7M8SX9.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "6550",
+        "sold": "16",
+        "supplierName": "Lord"
     },
     {
-        "id": 8,
         "name": "The Art Of War",
-        "price": "300",
+        "price": "3350",
         "description": "The Art of War is an ancient Chinese military treatise dating from the Late Spring and Autumn Period (roughly 5th century BC). The work, which is attributed to the ancient Chinese military strategist Sun Tzu is composed of 13 chapters. Each one is devoted to a different set of skills related to warfare and how it applies to military strategy and tactics. For almost 1,500 years it was the lead text in an anthology that was formalized as the Seven Military Classics by Emperor Shenzong of Song in 1080. The Art of War remains the most influential strategy text in East Asian warfare and has influenced both Eastern and Western military thinking, business tactics, legal strategy, lifestyles and beyond.",
-        "img": "https://m.media-amazon.com/images/P/1599869772.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/1599869772.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "460",
+        "sold": "18",
+        "supplierName": "Nolen"
     },
     {
-        "id": 9,
         "name": "Battery replacement",
-        "price": "300",
+        "price": "200",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-        "img": "https://m.media-amazon.com/images/P/0062219693.01._SCLZZZZZZZ_SX500_.jpg"
+        "img": "https://m.media-amazon.com/images/P/0062219693.01._SCLZZZZZZZ_SX500_.jpg",
+        "quantity": "80",
+        "sold": "11",
+        "supplierName": "Madboundy"
     }
 ]

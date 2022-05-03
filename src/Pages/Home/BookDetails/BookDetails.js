@@ -19,12 +19,13 @@ const BookDetails = () => {
     }
 
     return (
-        <div className='container m-5 bg-light'>
+        <div className='container m-5 bg-light mx-auto'>
             <div className='row justify-content-md-center align-items-center'>
                 <div className='col-md-6'>
                     <h2>Welcome to detail: {details.name}</h2>
                     <p>{details.description}</p>
                     <h5>Price :{details.price}</h5>
+                    <h5>Quantity :<button>{details.quantity}</button></h5>
                     <div className='mx-auto'>
                         <button onClick={handleAddBook} className='bg-danger text-white border py-2 px-5 rounded'>Add More Books</button>
                     </div>
@@ -32,6 +33,9 @@ const BookDetails = () => {
                 <div className='row col-md-6 justify-content-md-center p-5'>
                     <img src={details.img} alt="" width='50px' height='500px' />
                 </div>
+            </div>
+            <div className=''>
+                <button onClick={handleAddBook} className='bg-danger text-white border py-2 px-5 rounded'>Add More Books</button>
             </div>
         </div>
     );
