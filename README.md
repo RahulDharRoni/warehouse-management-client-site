@@ -6,65 +6,34 @@ This project was bootstrapped with [Create React App](https://github.com/Program
 
 React, React-Bootstrap , heroIocn , firebase, heroku, netlify , nodemon, express , mongodb etc
 
-### `npm start`
+### API Json and Data Upload
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I upload data form Server, and show books items in the UI.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the Home page i show 6 books without update button. and Inventory page all the books together. 
 
-### `npm test`
+### Login and SignUp form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I design login and signUp form first. After that i complete firebase authentication for email passwork and google signin. I set some error comment on the site. 
 
-### `npm run build`
+### firebase , netlify and heroku deploy
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Build a project for heroku and update it. Then after i have upload the UI in the netlify 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Netlify Site Like ---- (https://famous-daifuku-5e08f4.netlify.app/) for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### About the site
 
-### `npm run eject`
+This is a books  inventory warehouse site, where you can add your books and delete form your inventory. You have to sigeUp for that. you can sign up with google or email password.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Note: this is a books  inventory warehouse site. Once you `eject`, you can't go back! you have to sign in again for add inventory**
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-RahulDharRoni).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
