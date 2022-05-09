@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 
 const Login = () => {
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
     const [
         signInWithEmailAndPassword,
         user,
@@ -67,8 +68,14 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
+                <div className='my-3'>
+                    <Button onClick={() => signInWithGoogle()} variant="outline-primary">Google</Button>{' '}
+                </div>
+
                 <h5 className='text-center mt-3'>Dont Have Account? <small onClick={OpenSignUp} className='text-danger text-decoration-underline'>Create An Account</small></h5>
+
             </Form>
+
 
 
         </div>
