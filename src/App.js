@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
 import AddBooks from './Pages/AddBooks/AddBooks';
+import Blogs from './Pages/Blogs/Blogs';
 import DeleteBooks from './Pages/DeleteBooks/DeleteBooks';
 import BookDetails from './Pages/Home/BookDetails/BookDetails';
 import Books from './Pages/Home/Books/Books';
@@ -24,6 +25,7 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/blogs" element={<Blogs></Blogs>} />
         <Route path="/addbooks" element={
           <RequireAuth>
             <AddBooks></AddBooks>

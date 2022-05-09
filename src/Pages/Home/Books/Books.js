@@ -6,7 +6,7 @@ const Books = () => {
     const [books] = useBooksHooks();
     return (
         <div>
-            <h1>In Inventory</h1>
+            <h1 className='text-center'>Books Inventory</h1>
             <div className='books-container'>
                 {
                     books.map(booksInfo => <Book

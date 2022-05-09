@@ -18,8 +18,8 @@ const Slider = () => {
                                 <h3 >Books Inventory</h3>
                                 <h1 className='text-warning'>Future Generation Books Inventory</h1>
                             </div>
-                            <div>
-                                <img src="https://img.freepik.com/free-vector/hand-drawn-world-book-day-illustration-with-stack-books_23-2148868267.jpg?t=st=1651580196~exp=1651580796~hmac=3f984d0d554266a9e20ed380d8dfaa7cb8464c90e3c1d7979635ba97b7b3bff3&w=740" alt="" width='400px' height='400px' />
+                            <div className='p-3'>
+                                <img src="https://cdn-icons-png.flaticon.com/512/1243/1243254.png?w=740" alt="" width='300px' height='300px' />
                             </div>
                         </div>
 
@@ -33,13 +33,13 @@ const Slider = () => {
                         height='600px'
                     />
                     <Carousel.Caption>
-                        <div className='bg-danger bg-opacity-50 d-flex align-content-center'>
+                        <div className='bg-dark bg-opacity-25 d-flex align-content-center'>
                             <div className='text-start p-5'>
                                 <h3 >Books Inventory</h3>
                                 <h1 className='text-warning'>Future Generation Books Inventory</h1>
                             </div>
-                            <div>
-                                <img src="https://img.freepik.com/free-vector/hand-drawn-world-book-day-illustration-with-stack-books_23-2148868267.jpg?t=st=1651580196~exp=1651580796~hmac=3f984d0d554266a9e20ed380d8dfaa7cb8464c90e3c1d7979635ba97b7b3bff3&w=740" alt="" width='400px' height='400px' />
+                            <div className='p-3'>
+                                <img src="https://cdn-icons-png.flaticon.com/512/1238/1238113.png?w=740" alt="" width='300px' height='300px' />
                             </div>
                         </div>
 
