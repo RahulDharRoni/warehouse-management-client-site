@@ -8,8 +8,8 @@ const ManageDelete = (props) => {
     const handleDelete = id => {
         const alert = window.confirm('Are you Sure?')
         if (alert) {
-            // const url = `http://localhost:5000/books/${id}`
-            fetch(`http://localhost:5000/books/${id}`, {
+            // const url = `https://shrouded-plateau-55748.herokuapp.com/books/${id}`
+            fetch(`https://shrouded-plateau-55748.herokuapp.com/books/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 const AddBooks = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        const url = `http://localhost:5000/books`
+        const url = `https://shrouded-plateau-55748.herokuapp.com/books`
         fetch(url, {
             method: 'POST',
             headers: {

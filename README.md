@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-RahulDharRoni).
 
-## Available Scripts
+## INSTALLED
 
-In the project directory, you can run:
+React, React-Bootstrap , heroIocn , firebase, heroku, netlify , nodemon, express , mongodb etc
 
 ### `npm start`
 

@@ -8,7 +8,7 @@ const BookDetails = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const url = `http://localhost:5000/books/${booksId}`
+        const url = `https://shrouded-plateau-55748.herokuapp.com/books/${booksId}`
         fetch(url)
             .then(res => res.json())
             .then(data => setDetails(data));
@@ -21,7 +21,7 @@ const BookDetails = () => {
         const newQuantity = parseInt(details.quantity) - 1;
         const stringQuantity = newQuantity.toString();
         const updateQuantity = { ...details, quantity: stringQuantity }
-        fetch(`http://localhost:5000/books/${booksId}`, {
+        fetch(`https://shrouded-plateau-55748.herokuapp.com/books/${booksId}`, {
             method: 'PUT', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ const BookDetails = () => {
         const restockQuantity = parseInt(details.quantity) + parseInt(quantityValue);
         const newRestockString = restockQuantity.toString()
         const newrestockQuantity = { ...details, quantity: newRestockString }
-        fetch(`http://localhost:5000/books/${booksId}`, {
+        fetch(`https://shrouded-plateau-55748.herokuapp.com/books/${booksId}`, {
             method: 'PUT', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
