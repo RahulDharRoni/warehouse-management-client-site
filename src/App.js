@@ -9,6 +9,7 @@ import Books from './Pages/Home/Books/Books';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
+import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import SignUp from './Pages/SignUp/SignUp';
 
@@ -46,6 +47,8 @@ function App() {
 
         <Route path="*" element={<DeleteBooks></DeleteBooks>} />
       </Routes>
+
+      <Footer></Footer>
     </div>
   );
 }

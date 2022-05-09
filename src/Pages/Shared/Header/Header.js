@@ -26,7 +26,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
-                            <Nav.Link as={Link} to="books">Books</Nav.Link>
+                            <Nav.Link as={Link} to="books">Books Inventory</Nav.Link>
 
                         </Nav>
                         {
@@ -35,7 +35,7 @@ const Header = () => {
                                     <Nav.Link as={Link} to="addbooks">Add-Books</Nav.Link>
                                 </Nav>
                                 <Nav>
-                                    <Nav.Link as={Link} to="delete">Delete</Nav.Link>
+                                    <Nav.Link as={Link} to="delete">Manage-Inventory</Nav.Link>
                                 </Nav>
                             </>
                         }
