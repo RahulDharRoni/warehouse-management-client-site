@@ -17,6 +17,42 @@ const BookDetails = () => {
     const handleAddBook = () => {
         navigate('/addbooks')
     }
+    const handleDelivered = () => {
+        const newQuantity = parseInt(details.quantity) - 1;
+        const stringQuantity = newQuantity.toString();
+        const updateQuantity = { ...details, quantity: stringQuantity }
+        fetch(`http://localhost:5000/books/${booksId}`, {
+            method: 'PUT', // or 'PUT'
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(updateQuantity),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                setDetails(updateQuantity)
+            })
+    }
+    const handleRestock = (e) => {
+        e.preventDefault()
+        const quantityValue = e.target.name.value;
+        const restockQuantity = parseInt(details.quantity) + parseInt(quantityValue);
+        const newRestockString = restockQuantity.toString()
+        const newrestockQuantity = { ...details, quantity: newRestockString }
+        fetch(`http://localhost:5000/books/${booksId}`, {
+            method: 'PUT', // or 'PUT'
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newrestockQuantity),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                setDetails(newrestockQuantity)
+            })
+    }
 
     return (
         <div className='container m-5 bg-light mx-auto'>
@@ -27,11 +63,22 @@ const BookDetails = () => {
                     <h5>Price :{details.price}</h5>
                     <h5>Quantity :<button>{details.quantity}</button></h5>
                     <div className='mx-auto'>
-                        <button onClick={handleAddBook} className='bg-danger text-white border py-2 px-5 rounded'>Add More Books</button>
+                        <button onClick={handleDelivered} className='bg-danger text-white border py-2 px-5 rounded'>Delivered</button>
                     </div>
                 </div>
                 <div className='row col-md-6 justify-content-md-center p-5'>
                     <img src={details.img} alt="" width='50px' height='500px' />
+                </div>
+                <div>
+                    <form onSubmit={handleRestock} className="w-50 mx-auto">
+                        <h2>Restock</h2>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="number" aria-describedby="emailHelp" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
             <div className=''>

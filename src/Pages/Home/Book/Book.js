@@ -23,7 +23,7 @@ const Book = (props) => {
                     <p className='p-2'>Sold :{sold}</p>
                 </div>
 
-                <button onClick={() => navigateToBookDetails(_id)} className='btn-org bg-white rounded border shadow px-4 py-2 m-2'>More Information</button>
+                <button onClick={() => navigateToBookDetails(_id)} className='btn-org bg-white rounded border shadow px-4 py-2 m-2'>Update</button>
 
             </div>
 
